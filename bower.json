@@ -1,7 +1,7 @@
 {
   "name": "osmosys",
   "dependencies": {
-    "JsBarcode": "https://github.com/osmosys/JsBarcode.git",
+    "JsBarcode": "https://github.com/HospitalRun/JsBarcode.git",
     "bootstrap": "~3.3.5",
     "filer.js": "https://github.com/ebidel/filer.js.git#~0.4.3",
     "idb.filesystem": "https://github.com/ebidel/idb.filesystem.js.git#~0.0.6",
