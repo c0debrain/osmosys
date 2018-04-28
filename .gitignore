@@ -4,6 +4,7 @@
 
 # compiled output
 /dist
+/prod
 /tmp
 /electron-out
 
