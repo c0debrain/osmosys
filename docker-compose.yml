@@ -6,11 +6,11 @@ services:
      - "4200:4200"
      - "7020:7020"
     depends_on:
-      couchdb:
+      couchdb_client:
         condition: "service_healthy"
     volumes:
       - ./app:/usr/src/app/app
-  couchdb:
+  couchdb_client:
     image: "couchdb:1.7.1"
     ports:
      - "5984:5984"
