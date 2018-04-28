@@ -1,7 +1,7 @@
 /* eslint-disable */
 var config = {
   couchDbServer: 'localhost',
-  couchDbPort: '5984',
+  couchDbPort: '5985',
   couchDbUseSsl: false,
   couchDbChangesSince: 'now',
   couchAdminUser: 'couchadmin',

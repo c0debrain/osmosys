@@ -6,10 +6,10 @@ const http = require('http');
 const process = require('process');
 const child = require('child_process');
 
-let couchurl = process.env.COUCHDB_URL ? process.env.COUCHDB_URL : 'http://localhost:5984';
+let couchurl = process.env.COUCHDB_URL ? process.env.COUCHDB_URL : 'http://localhost:5985';
 
 if (typeof couchurl === undefined || couchurl === null) {
-  couchurl = 'http://localhost:5984';
+  couchurl = 'http://localhost:5985';
 }
 
 const testCouchServer = function(url) {
