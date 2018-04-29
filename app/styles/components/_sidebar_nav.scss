@@ -8,8 +8,8 @@
   bottom: 0;
   left: 0;
   z-index: 1;
-  box-shadow: 1px 0 0 $navy_drkest;
-  background-color: $navy_drk2;
+  //box-shadow: 1px 0 0 $navy_drkest;
+  background-color: $green_dark;
   width: 275px;
   color: $white;
   font-weight: 300;
@@ -42,8 +42,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  border-bottom: 1px solid $navy_drkest;
-  background-color: $navy_mid2;
+  border-bottom: 1px solid $green_jungle;
+  //background-color: $navy_mid2;
   width: 100%;
   height: 55px;
 }
@@ -113,7 +113,7 @@
 // sidebar search
 
 .sidebar-nav-search {
-  border-bottom: 1px solid $navy_drkest;
+  border-bottom: 1px solid $green_jungle;
   padding: 10px 15px;
   height: 58px;
 
@@ -173,8 +173,8 @@
     @include transition_all;
 
     display: block;
-    border-bottom: 1px solid $navy_drkest;
-    background: $navy_mid2;
+    //border-bottom: 1px solid $navy_drkest;
+    //background: $navy_mid2;
     padding: 0 15px;
     height: 48px;
     line-height: 48px;
@@ -192,30 +192,30 @@
 
     &:hover,
     &.active {
-      background: $navy_mid;
+      background: $green_jungle;
       .mega-octicon { color: $white; }
     }
   }
 
   // sub section link
   .category-sub-items {
-    border-bottom: 1px solid $navy_drkest;
-    background: #3a4d63;
+    //border-bottom: 1px solid $navy_drkest;
+    background: $green_jungle;
   }
 
   .category-sub-item {
     @include transition_all;
 
     display: block;
-    background: $navy_mid3;
+    //background: $navy_mid3;
     padding: 0 15px;
     height: 36px;
     line-height: 36px;
-    color: $sidebar_sublink_text;
+    color: $white;
     font-size: 15px;
 
     &:hover {
-      background: $navy_mid;
+      background: $green_forest;
       color: $white;
 
       .octicon {
